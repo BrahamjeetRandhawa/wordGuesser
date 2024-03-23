@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+body h1{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 50px;
+    width: 8em;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+body h2{
+    display: flex;
+    border: 2px solid black;
+    width: 200px;
+    margin: auto;
+    margin-top: 30vh;
+    margin-bottom: 5vh;
+    font-size: 60px;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+body .alfabet_1 p, .alfabet_2 p, .alfabet_3 p, .lege_boxes p{
+    display: flex;
+    border: solid black;
+    font-size: 50px;
+    width: 2em;
+    height: 1em;
+    justify-content: space-around;
+    margin: 1px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+body .alfabet_1 p:hover, .alfabet_2 p:hover, .alfabet_3 p:hover{
+    font-size: 52px;
+    border: 3px solid black;
+}
+
+body div{
+    display: flex;
+    margin: auto;
+}
+
+body div:nth-of-type(2){
+    margin-top: 3em;
+}
+
+
+body .alfabet_1, .alfabet_2, .alfabet_3{
+    width: 75em;
+    height: 5em;
+    justify-content: space-around;
+}
+
+body .lege_boxes{
+    justify-content: space-around;
+    width: 35%;
+}
+
+
+
+/* JavaScript Linked */
+.fout {
+    background-color: red;
+    pointer-events: none;
+}
+
+.goed {
+    background-color: green;
+    pointer-events: none;
+}
+
+
+
